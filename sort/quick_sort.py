@@ -14,6 +14,11 @@ def quick_sort(values):
     return quick_sort(less_than_pivot) + [pivot] + quick_sort(greater_than_pivot)
 
 numbers = [33,33,552,2131,79,0,442,21,55,95,442435,675,3213455,5523455,6635567,999765,323,6798765,346789,8765433,765,18]
+strings = ["emma", "john", "josh", "xavier","xaviea" , "dave", "mene"]
+
 sorted_numbers = quick_sort(numbers)
+sorted_strings = quick_sort(strings)
+
 print(sorted_numbers)
+print(sorted_strings)
 
