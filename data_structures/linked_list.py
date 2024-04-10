@@ -104,40 +104,40 @@ class LinkedList:
             return current
 
 
-def run_tests():
-    # Create a linked list
-    l = LinkedList()
-
-    # Test is_empty() method
-    print("Is the linked list empty?", l.is_empty())
-
-    # Test add() and size() methods
-    l.add(2)
-    l.add(10)
-    l.add(15)
-    print("Linked list after adding elements:", l)
-    print("Size of the linked list:", l.size())
-
-    # Test search() method
-    print("Searching for element 10:", l.search(10))
-    print("Searching for element 20:", l.search(20))
-
-    # Test index() method
-    l.index(7, 1)  # Insert 7 at index 1
-    print("Linked list after inserting 7 at index 1:", l)
-    print("Size of the linked list after insertion:", l.size())
-
-    # Test remove() method
-    l.remove(7)  # Remove node with data 7
-    print("Linked list after removing element 7:", l)
-    print("Size of the linked list after removal:", l.size())
-
-    # Test node_at_index() method
-    print("Node at index 2:", l.node_at_index(2))
-
-    # Print the final linked list
-    print("Final linked list:", l)
-
-
-run_tests()
+# def run_tests():
+#     # Create a linked list
+#     l = LinkedList()
+#
+#     # Test is_empty() method
+#     print("Is the linked list empty?", l.is_empty())
+#
+#     # Test add() and size() methods
+#     l.add(2)
+#     l.add(10)
+#     l.add(15)
+#     print("Linked list after adding elements:", l)
+#     print("Size of the linked list:", l.size())
+#
+#     # Test search() method
+#     print("Searching for element 10:", l.search(10))
+#     print("Searching for element 20:", l.search(20))
+#
+#     # Test index() method
+#     l.index(7, 1)  # Insert 7 at index 1
+#     print("Linked list after inserting 7 at index 1:", l)
+#     print("Size of the linked list after insertion:", l.size())
+#
+#     # Test remove() method
+#     l.remove(7)  # Remove node with data 7
+#     print("Linked list after removing element 7:", l)
+#     print("Size of the linked list after removal:", l.size())
+#
+#     # Test node_at_index() method
+#     print("Node at index 2:", l.node_at_index(2))
+#
+#     # Print the final linked list
+#     print("Final linked list:", l)
+#
+#
+# run_tests()
 
